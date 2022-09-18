@@ -20,43 +20,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="8dp"
-        android:text="Add"
-        app:backgroundTint="#4CAF50"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
-        app:layout_constraintVertical_bias="0.524" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="cancel"
-        app:backgroundTint="#DA2E2E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
-
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="288dp"
         android:layout_height="53dp"
         android:layout_marginTop="32dp"
         android:ems="10"
+        android:hint="Type"
         android:inputType="textPersonName"
+        android:shadowColor="#E3E3E3"
         android:singleLine="false"
-        android:text="Type"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,27 +41,41 @@
         android:layout_height="53dp"
         android:layout_marginTop="24dp"
         android:ems="10"
+        android:hint="Location"
         android:inputType="textPersonName"
         android:singleLine="false"
-        android:text="Location"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/editTextTextPersonName6"
         android:layout_width="288dp"
         android:layout_height="53dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
+        android:hint="Maximum Distance of event"
         android:inputType="textPersonName"
         android:singleLine="false"
-        android:text="Maximum distance of event"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.354"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="288dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -96,9 +83,9 @@
         android:layout_height="53dp"
         android:layout_marginTop="24dp"
         android:ems="10"
+        android:hint="Brand"
         android:inputType="textPersonName"
         android:singleLine="false"
-        android:text="Brand"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,4 +102,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Negotiatable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="54dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/microsoftteams_image__1_" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

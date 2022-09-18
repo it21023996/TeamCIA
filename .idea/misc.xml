@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_add_car.xml" value="0.22" />
+        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_add_car.xml" value="0.2" />
+        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_add_car2.xml" value="0.33" />
+        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_edit_car.xml" value="0.28425925925925927" />
         <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_my_vehicles.xml" value="0.22" />
+        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_profile.xml" value="0.67" />
+        <entry key="..\:/Users/isuru/AndroidStudioProjects/WeddingRides/app/src/main/res/layout/activity_profile1.xml" value="0.22864583333333333" />
       </map>
     </option>
   </component>
